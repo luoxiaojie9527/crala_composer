@@ -1,0 +1,3 @@
+{"node":"talker","package":"rospy_tutorials","sub":"","pub":"/chatter"}
+{"node":"listener","package":"rospy_tutorials","sub":"/chatter","pub":""}
+{"node":"listener2","package":"rospy_tutorials","sub":"/chatter","pub":""}
