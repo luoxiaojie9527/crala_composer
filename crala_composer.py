@@ -13,10 +13,16 @@ _ids = []
 num = []
 flag=1
 
+
 client = MongoClient()
+db = client.tasks
+cursor = db.tasks.find({"task":"drawsquare_turtlesim"})
+for document in cursor:
+	initial = document["node"]
+
 db = client.talker
 
-cursor = db.talker.find({"node":"turtlesim_node"})
+cursor = db.talker.find({"node":initial})
 for document in cursor:
 	nodes.append(document["node"])
 	packages.append(document["package"])
