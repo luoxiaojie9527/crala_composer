@@ -1,0 +1,8 @@
+{"node":"talker","package":"rospy_tutorials","sub":"","pub":"/chatter"}
+{"node":"listener","package":"rospy_tutorials","sub":"/chatter","pub":""}
+{"node":"listener.py","package":"rospy_tutorials","sub":"/chatter","pub":""}
+{"node":"listener","package":"rospy_tutorials","sub":"/chatter","pub":""}
+{"node":"talker2","package":"rospy_tutorials","sub":"","pub":"/chatter"}
+{"node":"turtlesim_node","package":"turtlesim","sub":"/turtle1/cmd_vel","pub":""}
+{"node":"turtle_teleop_key","package":"turtlesim","sub":"","pub":"/turtle1/cmd_vel"}
+{"node":"draw_square","package":"turtlesim","sub":"/turtle1/pose","pub":"/turtle1/cmd_vel"}
